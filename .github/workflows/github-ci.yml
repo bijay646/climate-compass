@@ -11,14 +11,14 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      -uses: actions/checkout@v2
-      -name: hello world
+      - uses: actions/checkout@v2
+      - name: hello world
         run: echo "Hello world"
         shell: bash
   
   bye:
     runs-on: ubuntu-latest
     steps:
-      -name: cya world
+      - name: cya world
       run: echo "Cya world"
       shell: bash
