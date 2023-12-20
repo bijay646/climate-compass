@@ -15,10 +15,10 @@ jobs:
       - name: hello world
         run: echo "Hello world"
         shell: bash
-  
+
   bye:
     runs-on: ubuntu-latest
     steps:
       - name: cya world
-      run: echo "Cya world"
-      shell: bash
+        run: echo "Cya world"
+        shell: bash
